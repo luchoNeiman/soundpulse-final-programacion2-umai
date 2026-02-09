@@ -1,0 +1,28 @@
+[
+    {
+        "id": 101,
+        "name": "Admin Principal",
+        "password": "admin123",
+        "email": "admin@soundpulse.com",
+        "isSubscribed": true,
+        "isAdmin": true,
+        "registerDate": "2025-01-15",
+        "likedPostIDs": [
+            1,
+            5,
+            12
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Franco Picco",
+        "password": "user456",
+        "email": "franco@gmail.com",
+        "isSubscribed": false,
+        "isAdmin": false,
+        "registerDate": "2025-02-01",
+        "likedPostIDs": [
+            2
+        ]
+    }
+]

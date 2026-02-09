@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "tipo": "album",
+        "titulo": "Midnight City",
+        "artista": "Synthwave Pro",
+        "genero": "Electronic",
+        "imagen": "midnight_city.jpg",
+        "audioPreview": "audio/midnight.mp3",
+        "precio": 15.99,
+        "descripcion": "Un viaje sonoro por la ciudad nocturna."
+    },
+    {
+        "id": 2,
+        "tipo": "artista",
+        "nombre": "Luna Keys",
+        "genero": "Jazz Moderno",
+        "imagen": "luna_keys.jpg",
+        "bio": "Pianista innovadora con base en Buenos Aires.",
+        "isFeatured": true
+    }
+]
