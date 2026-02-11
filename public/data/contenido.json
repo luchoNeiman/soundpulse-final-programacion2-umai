@@ -2,21 +2,36 @@
     {
         "id": 1,
         "tipo": "album",
-        "titulo": "Midnight City",
-        "artista": "Synthwave Pro",
+        "titulo": "Random Access Memories",
+        "artista": "Daft Punk",
         "genero": "Electronic",
-        "imagen": "midnight_city.jpg",
-        "audioPreview": "audio/midnight.mp3",
-        "precio": 15.99,
-        "descripcion": "Un viaje sonoro por la ciudad nocturna."
+        "imagen": "https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg",
+        "audioPreview": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
     },
     {
         "id": 2,
+        "tipo": "album",
+        "titulo": "After Hours",
+        "artista": "The Weeknd",
+        "genero": "R&B/Synth-pop",
+        "imagen": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_After_Hours.png",
+        "audioPreview": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+        "id": 3,
         "tipo": "artista",
-        "nombre": "Luna Keys",
-        "genero": "Jazz Moderno",
-        "imagen": "luna_keys.jpg",
-        "bio": "Pianista innovadora con base en Buenos Aires.",
+        "nombre": "Tame Impala",
+        "genero": "Psychedelic Rock",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Tame_Impala_at_Zitadelle_Spandau_in_Berlin_on_14_June_2016.jpg",
         "isFeatured": true
+    },
+    {
+        "id": 4,
+        "tipo": "album",
+        "titulo": "Future Nostalgia",
+        "artista": "Dua Lipa",
+        "genero": "Disco-pop",
+        "imagen": "https://upload.wikimedia.org/wikipedia/en/f/f5/Dua_Lipa_-_Future_Nostalgia_%28Official_Album_Cover%29.png",
+        "audioPreview": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
     }
 ]

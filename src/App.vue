@@ -1,11 +1,29 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue';
+import { RouterView } from 'vue-router';
+import LandingOverlay from './components/LandingOverlay.vue';
+
+const audioPlayer = ref<HTMLAudioElement | null>(null);
+
+const reproducirMusica = () => {
+  if (audioPlayer.value) {
+    audioPlayer.value.volume = 0.2;
+    audioPlayer.value.play();
+  }
+};
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
-</template>
+  <LandingOverlay @iniciar="reproducirMusica" />
 
-<style scoped></style>
+  <header>
+    <nav>
+    </nav>
+  </header>
+
+  <RouterView />
+
+  <audio ref="audioPlayer" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg">
+  </audio>
+</template>
